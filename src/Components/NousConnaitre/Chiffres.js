@@ -5,6 +5,7 @@ import { GrGroup } from "react-icons/gr";
 import { GiStarsStack } from "react-icons/gi";
 import { FaPerson } from "react-icons/fa6";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
+import { Zoom } from 'react-reveal';
 
 function Chiffres() {
 
@@ -17,6 +18,7 @@ function Chiffres() {
     { title: "chiffre d'affaires ", years: "83M$", icon: <FaMoneyBillTrendUp className='w-8 text-white h-14' /> },
   ]
   return (
+    <Zoom>
     <div className='text-white bg-[#29405d]'>
     
     
@@ -39,6 +41,7 @@ function Chiffres() {
       </div>
     </div>
         </div>
+        </Zoom>
   )
 }
 

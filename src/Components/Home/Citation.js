@@ -1,7 +1,9 @@
 import React from 'react'
+import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
 
 function Citation() {
   return (
+    <Zoom>
     <div className='flex items-center justify-center p-24 bg-gray-100'>
       <div className='flex flex-col items-center justify-center md:flex-row'>
         <img src="People/hou1.png" className=''/>
@@ -13,6 +15,7 @@ function Citation() {
         </h1>
       </div>
     </div>
+    </Zoom>
   )
 }
 

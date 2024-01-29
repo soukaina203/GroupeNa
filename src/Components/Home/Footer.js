@@ -5,7 +5,7 @@ function Footer() {
   return (
  
 <Zoom>
-<footer className="bg-gray-100 ">
+<footer className="bg-gray-300 ">
     <div className="w-full max-w-screen-xl mx-auto ">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
       <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold  cursor-pointer md:ml-0 flew-row 
@@ -14,7 +14,7 @@ function Footer() {
           </h1>
         <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2>
-            <ul className="font-medium text-gray-500 dark:text-gray-400">
+            <ul className="font-medium text-gray-600 ">
                 <li className="mb-4">
                     <a href="#" className=" hover:underline">A propos</a>
                 </li>
@@ -29,7 +29,7 @@ function Footer() {
         </div>
         <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Nous Connaitre</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-600 font-medium">
                 <li class="mb-4">
                     <a href="#" className="hover:underline"> Nos Chiffres</a>
                 </li>
@@ -44,7 +44,7 @@ function Footer() {
         </div>
         <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Nos Missions</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-600 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Nos réalisation</a>
                 </li>
@@ -56,7 +56,7 @@ function Footer() {
         </div>
         <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">CONTACT</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-600 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">0537485965</a>
                 </li>

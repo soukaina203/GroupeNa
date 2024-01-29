@@ -1,7 +1,9 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 
 function Hero() {
   return (
+    <Zoom>
     <div className="w-5/6 mt-[2rem] mx-auto wrap">
       <div className="grid justify-center grid-cols-10 place-content-center place-items-center">
         <div className="col-span-6 col-start-1 none md:block row-span-full">
@@ -50,6 +52,7 @@ function Hero() {
         </div>
       </div>
     </div>
+    </Zoom>
   );
 }
 

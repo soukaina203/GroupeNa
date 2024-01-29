@@ -1,7 +1,9 @@
 import React from 'react'
+import { Zoom } from 'react-reveal'
 
 function Video() {
     return (
+        <Zoom>
         <div>
             <section className="flex items-center justify-center w-full h-screen overflow-hidden bg-gray-900 ">
                 <video src=
@@ -12,6 +14,7 @@ function Video() {
 
             </section>
         </div>
+        </Zoom>
     )
 }
 

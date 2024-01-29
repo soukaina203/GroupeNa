@@ -1,63 +1,13 @@
-// import React from 'react'
 
-// function Values() {
-//     return (
-//         <div>
-//              <h2 className="text-xl md:text-2xl mt-[4rem] lg:text-4xl text-[#3218BF]
-//          text-center p-5 "><b>Nos Valeurs</b></h2>
-//         <div  className='flex  items-center justify-center p-[5rem] pt-0'>
-
-//         <div class="grid grid-cols-8 grid-rows-2 gap-1 [&>*]:rounded-sm ">
-//             <div className="col-span-4 p-[5rem] bg-[#BEC4D0]">
-//                 <h1 className='mb-2 text-4xl font-bold'>Innovation</h1>
-//                 <p className='lg:w-[28rem] text-[20px]'>
-//                 Créer et se renouveler sans cesse pour répondre au mieux à vos attentes de demain.
-//                 </p>
-//             </div>
-//             <div className="col-span-2  flex justify-center items-center border-4 text-[#BEC4D0] border-[#BEC4D0]">
-//             <h1 className='text-5xl font-bold bg-slate-300 '>Intégrité</h1>
-//             </div>
-
-
-//             <div className="col-span-2 bg-[#BEC4D0]">
-//                 <img src='About/about1.jpeg' className='w-full h-full ' />
-//             </div>
-
-//             <div className="col-span-2 ">
-//             <img src='About/about4.jpeg' className='w-full h-full ' />
-
-
-//             </div>
-
-
-//             <div className="col-span-2 p-[5rem] border-4 border-[#477AA9] text-[#477AA9] flex justify-center items-center">
-//             <h1 className='text-5xl font-bold'>Proximité</h1>
-//             </div>
-
-//             <div className="col-span-4 bg-[#477AA9] text-white p-[5rem] ">
-//             <h1 className='mb-2 text-4xl font-bold'>Performance</h1>
-//                 <p className='lg:w-[29rem] text-[20px]'>
-//                 Notre objectif : mettre notre culture de la performance au service d’une plus grande réussite de tous.
-//                 </p>
-//             </div>
-//         </div>
-
-//         </div>
-//         </div>
-
-//     )
-// }
-
-// export default Values
-
-// src/components/AuditCompanyGrid.js
 
 import React from 'react';
 import { data } from './data';
+import { Zoom } from 'react-reveal';
 
 const Values = () => {
 
     return (
+        <Zoom>
         <div className=''>
             <div className='flex items-center justify-center p-4 pt-0'>
                 <div className='grid md:grid-cols-4  auto-rows-[200px] w-3/4 gap-4 my-10'>
@@ -101,6 +51,7 @@ const Values = () => {
                 </div>
             </div>
         </div>
+        </Zoom>
 
     );
 };

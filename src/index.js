@@ -3,24 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import NousConnaitre from './Components/NousConnaitre/NousConnaitre';
 import NosMissions from './Components/NosMissions/NosMissions';
 import Headers from './Components/Home/Header';
 import Footer from './Components/Home/Footer';
 import Team from './Components/Team/Team';
+import Welcome from './Components/Welcome';
+import Global from './Components/Team/Global';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
  <Router>
-<Headers />
 <Routes>
-{/* <Route  path='/' element={<Welcome/>}/> */}
-<Route  path='home' element={<App/>}/>
-<Route  path='missions' element={<NosMissions/>}/>
-<Route  path='connaitre' element={<NousConnaitre/>}/>
-<Route  path='team' element={<Team/>}/>
+<Route  path='/' element={<Welcome/>}/>
+<Route  path='/home' element={<App/>}/>
+<Route  path='/missions' element={<NosMissions/>}/>
+<Route  path='/connaitre' element={<NousConnaitre/>}/>
+<Route  path='/team' element={<Global/>}/>
 
 </Routes>
 <Footer /> 

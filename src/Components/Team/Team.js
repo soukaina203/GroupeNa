@@ -1,4 +1,6 @@
 import React from 'react'
+import { Zoom } from 'react-reveal'
+import Header from '../Home/Header'
 
 function Team() {
     const Members = [
@@ -40,7 +42,10 @@ function Team() {
 
     ]
     return (
-        <section className="flex items-center py-24 font-poppins ">
+        <Zoom>
+            <Header />
+
+        <section className="flex  items-center py-24 font-poppins ">
             <div className="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">
                 <div className="mb-10 text-center">
 
@@ -98,6 +103,7 @@ function Team() {
                 </div>
             </div>
         </section>
+        </Zoom>
     )
 }
 

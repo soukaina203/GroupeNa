@@ -1,8 +1,10 @@
 import React from 'react'
+import { Zoom } from 'react-reveal'
 
 function EmployeeWord() {
 
   return (
+    <Zoom >
     <div className='flex items-center justify-center lg:gap-[5rem] p-[9rem]'>
       <div className='flex flex-col items-center gap-[4rem] justify-center md:flex-row'>
         <img src="People/cha2.png" className='w-[15rem] h-[10rem] lg:w-[25rem] lg:h-[13rem]' />
@@ -18,6 +20,7 @@ function EmployeeWord() {
         </div>
       </div>
     </div>
+    </Zoom>
   )
 }
 

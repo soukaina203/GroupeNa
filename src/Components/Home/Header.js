@@ -1,28 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { GiFilmSpool, GiHamburgerMenu } from "react-icons/gi";
+import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
 
 function Header() {
   
   return (
     <div>
-      <nav className="fixed top-0 z-50 w-full bg-white ">
+      <nav className="fixed top-0 z-50 w-full bg-white shadow-md shadow-gray-200">
         <div className="container flex items-center justify-between m-auto ">
           <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold  cursor-pointer md:ml-0 flew-row 
            text-[#3218BF] ">
             NexAudit
           </h1>
           <ul className="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
-            <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" > <Link to="home" smooth={true} offset={-100} duration={500}>  Accueil </Link> </li>
+            <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" >
+               <Link to="/home" >  Accueil </Link>
+                </li>
 
           
             <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto " > 
-            <Link to="/connaitre" smooth={true} offset={-100} duration={500}>
+            <Link to="/connaitre" >
                Nous Connaitre
               
               </Link> </li>
-            <li className="px-6 py-4 duration-500 underlineHover" > <Link to="missions" smooth={true} offset={-100} duration={500}>  Nos Missions </Link> </li>
-            <li className="px-6 py-4 duration-500 underlineHover" > <Link to="team" smooth={true} offset={-100} duration={500}>  Team </Link> </li>
+            <li className="px-6 py-4 duration-500 underlineHover" > 
+            <Link to="/missions" >  Nos Missions </Link> 
+            </li>
+            <li className="px-6 py-4 duration-500 underlineHover" > <Link to="/team" >  Team </Link> </li>
 
 
 
@@ -38,21 +43,20 @@ function Header() {
             <div class="absolute top-0 w-8/12 h-screen ml-auto mr-auto transition-all flex items-center duration-500 bg-gray-900 text-white opacity-0 md:w-5/12 right-full group-focus:right-0 group-focus:opacity-100">
               <ul class="flex flex-col items-center justify-center w-[98%]  font-semibold  m-2">
                 <li class=" px-6 py-4 w-full duration-500 uppercase  hover:bg-gray-800">
-                  <Link to="home" smooth={true} duration={400}>
-                    Accueil
-                  </Link>
+                <Link to="home" >  Accueil </Link>
+
                 </li>
 
                 <li class="w-full px-6 py-4 duration-500 uppercase  hover:bg-gray-800 ">
-                  <Link to="about" smooth={true} duration={400}>
-                    À Propos
-                  </Link>
+                <Link to="connaitre" >
+               Nous Connaitre
+              
+              </Link> 
                 </li>
 
                 <li class="w-full px-6 py-4 duration-500 uppercase  hover:bg-gray-800 ">
-                  <Link to="mission" smooth={true} offset={-200} duration={400}>
-                    Mission
-                  </Link>
+                <Link to="missions" >  Nos Missions </Link> 
+
                 </li>
 
                 <li class="w-full px-6 py-4 uppercase duration-500  hover:bg-gray-800 ">
@@ -61,17 +65,7 @@ function Header() {
                   </Link>
                 </li>
 
-                <li class="w-full px-6 py-4 duration-500  uppercase  hover:bg-gray-800 ">
-                  <Link to="services" smooth={true} offset={-200} duration={400}>
-                    Services
-                  </Link>
-                </li>
-
-                <li class="w-full px-6 py-4 duration-500 uppercase  hover:bg-gray-800 ">
-                  <Link to="contact" smooth={true} offset={-200} duration={400}>
-                    Contact
-                  </Link>
-                </li>
+               
               </ul>
             </div>
 
