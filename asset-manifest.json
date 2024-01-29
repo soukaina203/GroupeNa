@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/GroupeNa/static/css/main.842df35a.css",
-    "main.js": "/GroupeNa/static/js/main.8179ad6d.js",
+    "main.js": "/GroupeNa/static/js/main.f3389480.js",
     "static/js/787.6a16176a.chunk.js": "/GroupeNa/static/js/787.6a16176a.chunk.js",
     "static/media/logo.svg": "/GroupeNa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/GroupeNa/index.html",
     "main.842df35a.css.map": "/GroupeNa/static/css/main.842df35a.css.map",
-    "main.8179ad6d.js.map": "/GroupeNa/static/js/main.8179ad6d.js.map",
+    "main.f3389480.js.map": "/GroupeNa/static/js/main.f3389480.js.map",
     "787.6a16176a.chunk.js.map": "/GroupeNa/static/js/787.6a16176a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.842df35a.css",
-    "static/js/main.8179ad6d.js"
+    "static/js/main.f3389480.js"
   ]
 }
