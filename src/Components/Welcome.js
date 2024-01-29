@@ -4,15 +4,15 @@ import { useNavigate } from 'react-router-dom';
 function Welcome() {
     const navigate = useNavigate();
 
-    // useEffect(() => {
-    //     const timeoutId = setTimeout(() => {
-    //         navigate('/home');
-    //     }, 2000);
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            navigate('/home');
+        }, 2000);
 
-    //     return () => {
-    //         clearTimeout(timeoutId);
-    //     };
-    // }, []);
+        return () => {
+            clearTimeout(timeoutId);
+        };
+    }, []);
     return (
         <div className='w-[100%] h-screen  flex justify-center items-center md:items-start '>
             <div className='w-[15rem] h-[15rem]  flex flex-col justify-center  md:justify-start  md:mt-[9rem]  gap-6 '>
