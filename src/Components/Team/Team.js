@@ -26,7 +26,7 @@ function Team() {
         {
             id: 4, name: "Mourabit Khadija", post: "Manager",
             text:" Cadre intermédiaire assumant un rôle de supervision, de gestion d'équipe et d'encadrement de projets d'audit ou de consulting",
-            img: "People/Khadija.png"
+            img: "People/khadija.png" 
         },
 
         {
@@ -45,7 +45,7 @@ function Team() {
         <Zoom>
             <Header />
 
-        <section className="flex  items-center py-24 font-poppins ">
+        <section className="flex items-center py-24 font-poppins ">
             <div className="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">
                 <div className="mb-10 text-center">
 
