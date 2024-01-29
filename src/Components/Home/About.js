@@ -19,14 +19,14 @@ const About = () => {
                   <div className="w-full px-3 sm:px-4 xl:w-1/2">
                     <div className="py-3 sm:py-1">
                       <img
-                        src="About/about1.jpeg"
+                        src="People/expert1.jpg"
                         alt=""
                         className=" w-full lg:w-[16rem] lg:h-[16rem] "
                       />
                     </div>
                     <div className="py-3 sm:py-4">
                       <img
-                        src="About/about2.jpeg"
+                        src="People/expert5.jpg"
                         alt=""
                         className=" w-full lg:w-[16rem] lg:h-[16rem] "
                       />
@@ -35,7 +35,7 @@ const About = () => {
                   <div className="w-full px-3 mt-[3rem] sm:px-4 xl:w-1/2">
                     <div className="relative z-10 my-4 ">
                       <img
-                        src="About/about3.jpeg"
+                        src="People/expert6.jpg"
                         alt=""
                         className="w-full lg:w-[16rem] lg:h-[16rem] "
                       />
@@ -43,7 +43,7 @@ const About = () => {
                     </div>
                     <div className="relative z-10 my-5 ">
                       <img
-                        src="About/about4.jpeg"
+                        src="About/about3.jpeg"
                         alt=""
                         className="w-full lg:w-[16rem] lg:h-[16rem] "
                       />
@@ -55,11 +55,11 @@ const About = () => {
 
               <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
                 <div className="mt-10 lg:mt-0 lg:ml-4">
-                  <span className="block pl-2 mb-4  text-[#3218BF] text-xl  font-bold md:pl-0 w-fit underline1 text-primary">
+                  <span className="block pl-2 mb-4 text-xl font-bold md:pl-0 w-fit underline1 text-primary">
                     A Propos de nous
                   </span>
-                  <h2 className="mb-5 pl-2 md:pl-0 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
-                  NexAudit - Redéfinir l'audit pour demain   </h2>
+                  <h2 className="mb-5 pl-2 md:pl-0 text-3xl text-[#003D8A] font-bold text-dark  sm:text-[40px]/[48px]">
+                    NexAudit - Redéfinir l'audit pour demain   </h2>
                   <p className="pl-2 mb-5 text-base md:pl-0 text-body-color dark:text-dark-6">
                     Fondé il y a plus de 5ans , NexAudit s'est imposé comme un leader dans l'audit et la consultation
                     financière. Notre parcours, marqué par l'alliance entre tradition et modernité, reflète notre
@@ -73,13 +73,13 @@ const About = () => {
                     continue.
 
                   </p>
-<button className="ml-2 bg-gray-900 md:ml-0">
+                  <button className="ml-2 bg-[#003D8A] md:ml-0">
 
-                  <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white  rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                Nous Contacter
-                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-</button>
+                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white  rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                      Nous Contacter
+                      <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>

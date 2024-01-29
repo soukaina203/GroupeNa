@@ -5,7 +5,7 @@ function Footer() {
   return (
  
 <Zoom>
-<footer className="bg-gray-900 ">
+<footer className="bg-gray-100 ">
     <div className="w-full max-w-screen-xl mx-auto ">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
       <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold  cursor-pointer md:ml-0 flew-row 
@@ -13,76 +13,66 @@ function Footer() {
             NexAudit
           </h1>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Accueil</h2>
             <ul className="font-medium text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
-                    <a href="#" className=" hover:underline">About</a>
+                    <a href="#" className=" hover:underline">A propos</a>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Careers</a>
+                    <a href="#" className="hover:underline">Expertises</a>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Brand Center</a>
+                    <a href="#" className="hover:underline"> Nos Chiffres </a>
                 </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Blog</a>
-                </li>
+              
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Nous Connaitre</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" className="hover:underline">Discord Server</a>
+                    <a href="#" className="hover:underline"> Nos Chiffres</a>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Twitter</a>
+                    <a href="#" className="hover:underline">Nos Competences</a>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Facebook</a>
+                    <a href="#" className="hover:underline">Nos Valeurs</a>
                 </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">Contact Us</a>
-                </li>
+              
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Nos Missions</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <a href="#" class="hover:underline">Nos réalisation</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Licensing</a>
+                    <a href="#" class="hover:underline">Nos But</a>
                 </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                </li>
+               
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">CONTACT</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">iOS</a>
+                    <a href="#" class="hover:underline">0537485965</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Android</a>
+                    <a href="#" class="hover:underline">info@NexAudit.com</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Windows</a>
+                    <a href="#" class="hover:underline">adresse : 34, Angle Avenue Oqba et Fal Ouled Oumeir Agdal</a>
                 </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">MacOS</a>
-                </li>
+              
             </ul>
         </div>
     </div>
    
     </div>
-    <div className='w-full h-[1rem] bg-[#3218BF] '>
-
-    </div>
+ 
 </footer>
 </Zoom>
   )

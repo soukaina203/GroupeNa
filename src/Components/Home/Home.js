@@ -5,13 +5,13 @@ import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
 function Home() {
   return (
     <Zoom>{/*Using Zoom Effect*/}
-<section class=" bg-gray-900  mt-[4rem]  h-screen w-full flex overflow-hidden justify-center items-center">
+<section className=" bg-gray-900  mt-[4rem]  h-screen w-full flex overflow-hidden justify-center items-center">
 <video src= 
 "Videos/Home.mp4"
             autoplay="{true}" loop muted 
-            className="absolute z-[-1] opacity-25 w-auto min-w-full min-h-full max-w-none"> 
+            className="absolute z-[-1] opacity-35 w-auto min-w-full min-h-full max-w-none"> 
         </video>
-    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+    <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-12">
      
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl dark:text-white">NexAudit - Redéfinir l'audit pour demain</h1>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl
