@@ -12,14 +12,14 @@ const About = () => {
         <section className="overflow-hidden pt-20 pb-12   lg:pt-[120px] 
       lg:pb-[90px]
          dark:bg-dark">
-          <div className="container mx-auto ">
+          <div className="container mx-auto p-7 md:p-0 ">
             <div className="flex flex-wrap items-center justify-center -mx-4">
               <div className="w-full px-4 lg:w-4/12">
                 <div className="flex items-center -mx-4 sm:-mx-5">
                   <div className="w-full px-3 sm:px-4 xl:w-1/2">
                     <div className="py-3 sm:py-1">
                       <img
-                        src="People/expert1.jpg"
+                        src="About/contact.jpg"
                         alt=""
                         className=" w-full lg:w-[16rem] lg:h-[16rem] "
                       />
@@ -53,10 +53,10 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
+              <div className="w-full px-4 pl-7 md:pl-0 lg:w-1/2 xl:w-5/12">
                 <div className="mt-10 lg:mt-0 lg:ml-4">
                   <span className="block pl-2 mb-4 text-xl font-bold md:pl-0 w-fit underline1 text-primary">
-                    A Propos de nous
+                  À Propos de nous
                   </span>
                   <h2 className="mb-5 pl-2 md:pl-0 text-3xl text-[#003D8A] font-bold text-dark  sm:text-[40px]/[48px]">
                     NexAudit - Redéfinir l'audit pour demain   </h2>

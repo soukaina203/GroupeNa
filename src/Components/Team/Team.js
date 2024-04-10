@@ -5,36 +5,36 @@ import Header from '../Home/Header'
 function Team() {
     const Members = [
         {
-            id: 1, name: "Aneddam Chaimae", post: "Expert-Comptable Associé",
+            id: 1, name: "Malik Chase", post: "Expert-Comptable Associé",
             text: "  Collaborateur de haut niveau spécialisé dans la gestion comptable et financière, contribuant activement à la prise de décision stratégique.",
-            img: "People/chaimae.jpeg"
+            img: "employees/b1.jpg"
         },
 
         {
-            id: 2, name: "Serghini Houssam", post: "Commissaire aux Comptes",
+            id: 2, name: "Eliezer Delarosa", post: "Commissaire aux Comptes",
             text: "  Professionnel de la vérification comptable, garantissant la conformité des états financiers aux normes légales et réglementaires.",
-            img: "People/houssam.jpg"
+            img: "employees/b2.jpg"
         },
 
         {
-            id: 3, name: "Koubia Meriem", post: "Chef de Mission",
+            id: 3, name: "Kylo Fernandez", post: "Chef de Mission",
             text:" Responsable opérationnel d'une mission d'audit ou de conseil, assurant la coordination et la qualité des travaux réalisés.",
             
-            img: "People/meri.jpeg"
+            img: "employees/b3.jpg"
         },
 
         {
-            id: 4, name: "Mourabit Khadija", post: "Manager",
+            id: 4, name: "Flynn McKenzie", post: "Manager",
             text:" Cadre intermédiaire assumant un rôle de supervision, de gestion d'équipe et d'encadrement de projets d'audit ou de consulting",
-            img: "People/khadija.png" 
+            img: "employees/b4.jpg" 
         },
 
         {
-            id: 5, name: "Jouihri Ayoub", post: "Auditeur Senior",
+            id: 5, name: "Aliana Davis", post: "Auditeur Senior",
 
             text:"Professionnel expérimenté dans le domaine de l'audit, jouant un rôle clé dans l'évaluation des processus financiers et le développement des équipes junior. ",
             
-            img: "People/jouihri.jpg"
+            img: "employees/b5.jpg"
         },
 
 
@@ -49,7 +49,7 @@ function Team() {
             <div className="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">
                 <div className="mb-10 text-center">
 
-                    <h1 className="text-3xl font-bold text-[#003D8A] capitalize"> Rencontrez Notre Equipe</h1>
+                    <h1 className="text-3xl font-bold text-[#003D8A] capitalize"> Rencontrez Notre Équipe</h1>
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-2">

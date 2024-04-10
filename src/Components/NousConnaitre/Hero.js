@@ -4,18 +4,17 @@ import { Zoom } from "react-reveal";
 function Hero() {
   return (
     <Zoom>
-    <div className="w-5/6 mt-[2rem] mx-auto wrap">
+    <div className="w-5/6 mt-[2rem] mx-auto wrap ">
       <div className="grid justify-center grid-cols-10 place-content-center place-items-center">
         <div className="col-span-6 col-start-1 none md:block row-span-full">
           <img
-            className="object-cover rounded-lg   z-[-1] w-[40rem] h-[40rem]"
+            className="object-cover  hidden lg:block mt-[2.9rem]  z-[-1] w-[40rem] h-[40rem]"
             src="People/expert5.jpg"
             alt=""
           />
         </div>
         {/* Div of paragraphs  */}
-        <div className="self-center max-w-xl text-[15px]  z-40 col-span-6 col-end-11 p-7 text-white  bg-[#00254F]  row-span-full
-         ">
+        <div className="self-center max-w-xl text-[15px] z-40 col-span-full mt-[3.9rem] lg:col-span-6 lg:col-end-11 p-7 text-white bg-[#00254F] row-span-full">
           <h1 className="mt-0 mb-2 text-2xl font-bold">
             Notre mission : œuvrer chaque jour pour offrir plus que l’attendu
           </h1>
@@ -31,7 +30,7 @@ function Hero() {
           </p>
           <button className="mt-2 ml-2 bg-gray-900 md:ml-0">
             <a
-              href="#"
+              href="/"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Nous Contacter

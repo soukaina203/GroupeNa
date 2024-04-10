@@ -17,7 +17,7 @@ function Services() {
 
   return (
     <Zoom>
-      <div className="p-16 sm:p-24 lg:p-32">
+      <div className="hidden p-16 md:block sm:p-24 lg:p-32">
         <h2 class="text-xl md:text-2xl lg:text-4xl text-[#003D8A]
          text-center p-4 "><b>Nos expertises</b></h2>
 
@@ -57,6 +57,66 @@ function Services() {
             onClick={handleNextService}
           >
             <span className="block">&#x279c;</span>
+          </button>
+        </div>
+        <div className="flex items-center justify-between pt-5 ">
+          {/* ... Logo buttons remain the same ... */}
+        </div>
+      </div>
+      <div className="p-4 sm:p-16 lg:p-32 md:hidden">
+        <h2 className="text-xl md:text-2xl lg:text-4xl text-[#003D8A] text-center p-4">
+          <b>Nos expertises</b>
+        </h2>
+
+        <div className="relative items-center block rounded-lg min-h-[18rem] shadow-xl md:flex">
+          <div className="relative w-full h-full rounded-t-lg md:w-2/5 md:rounded-t-none md:rounded-l-lg">
+            {/* Background color with full width/height on all screens */}
+            <div className="absolute inset-0 w-full h-full bg-gray-300 opacity-0"></div>
+
+            <h1 className="w-full p-4 md:p-[3rem] lg:p-0 text-2xl font-semibold text-[#003D8A]">
+              {services[currentService].title}
+            </h1>
+
+            {/* SVG remains the same */}
+            {/* ... */}
+          </div>
+          <div className="flex items-center w-full h-full rounded-lg md:w-3/5">
+            <div className="p-4 md:pr-24 md:pl-16 md:py-12">
+              <p className="text-gray-600 ">
+                <span className="text-gray-900 ">
+                  {services[currentService].title}
+                </span>
+                {services[currentService].content}
+              </p>
+            </div>
+            {/* SVG remains the same */}
+            {/* ... */}
+          </div>
+          {/* Navigation buttons responsive across screens */}
+          <button
+            className="absolute right-0 mr-4 text-2xl text-indigo-600 -translate-y-1/2 bg-white rounded-full shadow-md top-1/2 hover:text-indigo-400 focus:text-indigo-400 focus:outline-none focus:shadow-outline sm:hidden md:block lg:block"
+            onClick={handleNextService}
+          >
+            <span className="block">&#x279c;</span>
+          </button>
+          <button
+            className="absolute left-0 ml-4 text-2xl text-indigo-600 -translate-y-1/2 bg-white rounded-full shadow-md top-1/2 hover:text-indigo-400 focus:text-indigo-400 focus:outline-none focus:shadow-outline sm:hidden md:block lg:block"
+            onClick={handlePreviousService}
+          >
+            <span className="block">&#x279c;</span>
+          </button>
+          <button
+            className="absolute right-0 mr-4 text-2xl text-indigo-600 -translate-y-1/2 bg-white rounded-full shadow-md top-1/2 hover:text-indigo-400 focus:text-indigo-400 focus:outline-none focus:shadow-outline sm:block md:hidden lg:hidden"
+            onClick={handleNextService}
+          >
+            <span className="block">&#x279c;</span>
+          </button>
+          <button
+            className="absolute left-0 ml-4 text-2xl text-indigo-600 -translate-y-1/2 bg-white rounded-full shadow-md top-1/2 hover:text-indigo-400 focus:text-indigo-400 focus:outline-none focus:shadow-outline sm:block md:hidden lg:hidden"
+            onClick={handlePreviousService}
+          >
+            <span className="block">&#x279c;</span>
+
           </button>
         </div>
         <div className="flex items-center justify-between pt-5 ">

@@ -5,9 +5,9 @@ function EmployeeWord() {
 
   return (
     <Zoom >
-    <div className='flex items-center justify-center lg:gap-[5rem] p-[9rem]'>
+    <div className='flex items-center justify-center lg:gap-[5rem]  p-[9rem]'>
       <div className='flex flex-col items-center gap-[4rem] justify-center md:flex-row'>
-        <img src="People/cha2.png" className='w-[15rem] h-[10rem] lg:w-[25rem] lg:h-[13rem]' />
+        <img src="employees/pep.png" className='w-[15rem] h-[10rem] lg:w-[25rem] lg:h-[22rem]' alt=''/>
         <div className="self-center w-[32rem] bg-gray-100 max-w-3xl text-[14px] lg:text-[18px]  z-40 col-span-6 col-end-11 p-7   row-span-full
          ">
         
