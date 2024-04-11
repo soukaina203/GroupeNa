@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.16d6e097.css",
-    "main.js": "/static/js/main.0a36453d.js",
-    "static/js/787.6a16176a.chunk.js": "/static/js/787.6a16176a.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.16d6e097.css.map": "/static/css/main.16d6e097.css.map",
-    "main.0a36453d.js.map": "/static/js/main.0a36453d.js.map",
-    "787.6a16176a.chunk.js.map": "/static/js/787.6a16176a.chunk.js.map"
+    "main.css": "/GroupeNa/static/css/main.16d6e097.css",
+    "main.js": "/GroupeNa/static/js/main.16e4a55a.js",
+    "static/js/787.6a16176a.chunk.js": "/GroupeNa/static/js/787.6a16176a.chunk.js",
+    "static/media/logo.svg": "/GroupeNa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/GroupeNa/index.html",
+    "main.16d6e097.css.map": "/GroupeNa/static/css/main.16d6e097.css.map",
+    "main.16e4a55a.js.map": "/GroupeNa/static/js/main.16e4a55a.js.map",
+    "787.6a16176a.chunk.js.map": "/GroupeNa/static/js/787.6a16176a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16d6e097.css",
-    "static/js/main.0a36453d.js"
+    "static/js/main.16e4a55a.js"
   ]
 }
