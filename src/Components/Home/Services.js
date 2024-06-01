@@ -17,7 +17,7 @@ function Services() {
 
   return (
     <Zoom>
-      <div className="hidden p-16 md:block sm:p-24 lg:p-32">
+      <div className="hidden p-16 overflow-x-hidden md:block sm:p-24 lg:p-32">
         <h2 class="text-xl md:text-2xl lg:text-4xl text-[#003D8A]
          text-center p-4 "><b>Nos expertises</b></h2>
 
@@ -26,8 +26,8 @@ function Services() {
           <div className="relative w-full h-full bg-[#003D8A] rounded-t-lg md:w-2/5 md:rounded-t-none md:rounded-l-lg">
             <div className="absolute inset-0 flex items-center justify-center w-full h-full bg-black ">
 
-                {/* HERE i want to have a background color here but to takes the full width and hight  */}
-            <h1 className='w-[20rem] p-[3rem] md:p-[3rem] lg:p-0  text-2xl font-semibold text-[#003D8A] '>{services[currentService].title}</h1>
+              {/* HERE i want to have a background color here but to takes the full width and hight  */}
+              <h1 className='w-[20rem] p-[3rem] md:p-[3rem] lg:p-0   text-2xl font-semibold text-[#003D8A] '>{services[currentService].title}</h1>
 
 
 
@@ -37,12 +37,12 @@ function Services() {
             </div>
           </div>
           <div className="flex items-center w-full h-full rounded-lg md:w-3/5">
-            <div className="p-12 md:pr-24 md:pl-16 md:py-12 ">
+            <div className="p-12 text-xl md:pr-24 md:pl-16 md:py-12">
               <p className="text-gray-600 ">
                 <span className="text-gray-900 ">{services[currentService].title}</span>
                 {services[currentService].content}
               </p>
-          
+
             </div>
             {/* ... SVG remains the same ... */}
           </div>
@@ -71,9 +71,9 @@ function Services() {
         <div className="relative items-center block rounded-lg min-h-[18rem] shadow-xl md:flex">
           <div className="relative w-full h-full rounded-t-lg md:w-2/5 md:rounded-t-none md:rounded-l-lg">
             {/* Background color with full width/height on all screens */}
-            <div className="absolute inset-0 w-full h-full bg-gray-300 opacity-0"></div>
+            <div className="absolute inset-0 w-full h-full bg-gray-300 opacity-0 "></div>
 
-            <h1 className="w-full p-4 md:p-[3rem] lg:p-0 text-2xl font-semibold text-[#003D8A]">
+            <h1 className="w-full p-4 md:p-[3rem] lg:p-0 text-2xl font-semibold  text-[#003D8A]">
               {services[currentService].title}
             </h1>
 

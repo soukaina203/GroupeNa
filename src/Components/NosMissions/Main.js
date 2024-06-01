@@ -1,5 +1,6 @@
 import React from "react";
 import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
+import { Link } from "react-scroll";
 
 function Main() {
   return (
@@ -14,19 +15,22 @@ function Main() {
             />
           </div>
           {/* Div of paragraphs  */}
-          <div className="self-center max-w-xl text-[15px]  z-40 col-span-full mt-[3.9rem] col-end-11 p-7 text-white  bg-black  row-span-full">
+          <div className="self-center max-w-2xl text-[15px]  z-40 col-span-full mt-[3.9rem] col-end-11 p-7 text-white  bg-black  row-span-full">
             <h1 className="mt-0 mb-2 text-2xl font-bold">
               Nos métiers : le groupe NA
             </h1>
-            <p className="mb-2">
+            <p className="mb-2 text-[19px]">
               Nous imaginons des solutions globales et intégrées pour accompagner les dirigeants, entreprises et entités de toutes tailles et de tout secteur.
 
               Expertise comptable, formalités juridiques et sociales, Audit, Droit, Gestion de Patrimoine, Conseil en stratégie, la diversité de nos expertises nous permet d’accompagner nos clients dans leur quotidien et leurs projets d’avenir.
             </p>
             <button className="mt-2 ml-2 bg-[#29405d] md:ml-0">
+            <Link to="contact" smooth={true} offset={-100} duration={500}>
+
               <a
                 href="/"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                className="inline-flex items-center justify-center px-5 py-3 
+              text-[19px] font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
                 Nous Contacter
                 <svg
@@ -42,6 +46,7 @@ function Main() {
                   ></path>
                 </svg>
               </a>
+              </Link>
             </button>
           </div>
         </div>

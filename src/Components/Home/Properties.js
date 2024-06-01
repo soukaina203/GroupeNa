@@ -14,8 +14,9 @@ function Properties() {
   ]
   return (
     <Zoom>
-    <div className='text-white bg-[#29405d] p-6'>
-      <div className='container grid items-center justify-center w-auto grid-cols-1 p-10 duration-500 transform place-content-center sm:grid-cols-2 md:p-8 lg:grid-cols-2 2xl:grid-cols-4 gap-x-4 gap-y-4 '>
+      {/* bg-[#29405d] */}
+    <div className='w-full p-6 bg-[#29405d] text-white '>
+      <div className='container grid items-center justify-center w-auto grid-cols-1 p-10 ml-auto mr-auto duration-500 transform place-content-center sm:grid-cols-2 md:p-8 lg:grid-cols-2 2xl:grid-cols-4 gap-x-4 gap-y-4 '>
         {Props.map((e) => {
           return (
             <div key={e.id} className='flex h-full max-w-sm gap-2 p-3 pb-2 mx-auto my-auto duration-300 cursor-pointer'>

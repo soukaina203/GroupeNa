@@ -46,10 +46,10 @@ function Team() {
             <Header />
 
         <section className="flex items-center py-24 font-poppins ">
-            <div className="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">
+            <div className="justify-center flex-1 px-4 py-6 mx-auto lg:mt-10 max-w-7xl lg:py-4 md:px-6">
                 <div className="mb-10 text-center">
 
-                    <h1 className="text-3xl font-bold text-[#003D8A] capitalize"> Rencontrez Notre Équipe</h1>
+                    <h1 className="text-3xl font-bold text-[#003D8A] lg:text-[2.2rem] capitalize"> Rencontrez Notre Équipe</h1>
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-2">

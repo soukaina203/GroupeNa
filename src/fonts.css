@@ -1,0 +1,15 @@
+/* src/styles/fonts.css */
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400 900; /* Range of weights for variable font */
+    src: url('/fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Plane Crash';
+    font-style: normal;
+    font-weight: 400 900; /* Range of weights for variable font */
+    src: url('/fonts/Plane Crash.ttf') format('truetype');
+  }
+  

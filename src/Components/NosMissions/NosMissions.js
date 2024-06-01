@@ -6,7 +6,7 @@ import Headers from '../Home/Header'
 function NosMissions() {
   return (
     <div>
-<Headers />
+      <Headers />
       <Main />
       <Specialties />
     </div>

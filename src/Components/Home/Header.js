@@ -9,11 +9,11 @@ function Header() {
     <div>
       <nav className="fixed top-0 z-50 w-full bg-white ">
         <div className="container flex items-center justify-between m-auto ">
-          <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold  cursor-pointer md:ml-0 flew-row 
-           text-[#3218BF] ">
+          <h1 className="flex gap-2 py-4 pl-8 text-3xl font-bold  cursor-pointer md:ml-0 flew-row 
+           text-[#3218BF] font-roboto-condensed">
             NexAudit
           </h1>
-          <ul className="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
+          <ul className="items-center hidden pr-10 text-xl font-semibold cursor-pointer lg:flex">
             <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" >
               <Link to="/home" >  Accueil </Link>
             </li>

@@ -8,9 +8,9 @@ function Citation() {
         <div className='flex flex-col items-center justify-center md:flex-row'>
           <img src="employees/a1.png" alt='' className='' />
           <h1 class="mb-4 text-xl font-semibold tracking-tight  leading-none
-        p-5 md:text-2xl lg:text-[1.5rem]  w-full max-w-3xl text-[#332c80] lg:mt-[2rem]">"Chez nous, la satisfaction de nos clients transcende
+        p-5 md:text-2xl lg:text-[1.9rem]  w-full max-w-3xl text-[#332c80] lg:mt-[2rem]">"Chez nous, la satisfaction de nos clients transcende
             tout. c'est notre boussole, notre motivation quotidienne."
-            <p className='mt-2 font-normal text-black text-[19px]'>  Malik Chase | CAC Chez NexAudit </p>
+            <p className='mt-2 font-normal text-black text-[21px]'>  Malik Chase | CAC Chez NexAudit </p>
 
           </h1>
         </div>

@@ -1,5 +1,7 @@
 {
   "name": "groupena",
+  "homepage": "https://soukaina203.github.io/GroupeNa",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {

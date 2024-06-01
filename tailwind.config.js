@@ -5,7 +5,13 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      fontFamily: {
+        'roboto-condensed': ['"Roboto Condensed"', 'sans-serif'],
+        'plan-crash': ['"Plane Crash"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

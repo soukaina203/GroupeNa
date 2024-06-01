@@ -1,5 +1,6 @@
 import React from "react";
 import { Zoom } from "react-reveal";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -14,11 +15,11 @@ function Hero() {
           />
         </div>
         {/* Div of paragraphs  */}
-        <div className="self-center max-w-xl text-[15px] z-40 col-span-full mt-[3.9rem] lg:col-span-6 lg:col-end-11 p-7 text-white bg-[#00254F] row-span-full">
+        <div className="self-center max-w-3xl text-[15px] z-40 col-span-full mt-[3.9rem] lg:col-span-6 lg:col-end-11 p-7 text-white bg-[#00254F] row-span-full">
           <h1 className="mt-0 mb-2 text-2xl font-bold">
-            Notre mission : œuvrer chaque jour pour offrir plus que l’attendu
+            Notre mission : œuvrer chaque jour pour offrir plus que l'attendu
           </h1>
-          <p className="mb-2">
+          <p className="mb-2 text-xl">
             Notre vocation quotidienne est de surpasser les attentes en proposant des
             solutions exhaustives et intégrées, dépassant ainsi le cadre traditionnel. Nous conceptualisons des
             approches globales pour soutenir les leaders dans leurs opérations quotidiennes et tout au long du
@@ -29,9 +30,11 @@ function Hero() {
             et dans la réalisation de leurs projets d'avenir.
           </p>
           <button className="mt-2 ml-2 bg-gray-900 md:ml-0">
+          <Link to="contact" smooth={true} offset={-100} duration={500}>
+
             <a
               href="/"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              className="inline-flex items-center justify-center px-5 py-3 text-xl font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Nous Contacter
               <svg
@@ -47,6 +50,7 @@ function Hero() {
                 ></path>
               </svg>
             </a>
+            </Link>
           </button>
         </div>
       </div>
